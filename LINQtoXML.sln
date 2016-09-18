@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books", "Books\Books.csproj", "{FF104E7E-7972-4A6F-959A-96951A780FC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookWriter", "BookWriter\BookWriter.csproj", "{7CBC83E3-A891-4EA7-9234-ECFD848C7FF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookReader", "BookReader\BookReader.csproj", "{BDD88C62-A267-4E17-BCF2-894184F1C579}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF104E7E-7972-4A6F-959A-96951A780FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF104E7E-7972-4A6F-959A-96951A780FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF104E7E-7972-4A6F-959A-96951A780FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF104E7E-7972-4A6F-959A-96951A780FC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CBC83E3-A891-4EA7-9234-ECFD848C7FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CBC83E3-A891-4EA7-9234-ECFD848C7FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CBC83E3-A891-4EA7-9234-ECFD848C7FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CBC83E3-A891-4EA7-9234-ECFD848C7FF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDD88C62-A267-4E17-BCF2-894184F1C579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD88C62-A267-4E17-BCF2-894184F1C579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD88C62-A267-4E17-BCF2-894184F1C579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD88C62-A267-4E17-BCF2-894184F1C579}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
