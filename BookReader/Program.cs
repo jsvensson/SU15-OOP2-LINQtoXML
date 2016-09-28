@@ -24,6 +24,18 @@ namespace BookReader
                     Console.WriteLine($"  * {book.Attribute("name")?.Value} ({book.Attribute("pagecount")?.Value} pages)");
                 }
             }
+
+            var titles = xmlFile
+                .Elements("author")
+                .Elements("books")
+                .Elements("book")
+                .Attributes("name")
+                .Select(a => a.Value);
+
+            foreach (string title in titles)
+            {
+                Console.WriteLine(title);
+            }
         }
     }
 }
